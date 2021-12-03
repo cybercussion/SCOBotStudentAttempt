@@ -1,0 +1,69 @@
+{
+    "status": "success",
+    "data" :  {
+        "cmi": {
+            "_version": "1.0",
+            "comments_from_learner": {
+                "_children": "comment,location,timestamp",
+                "_count": "0"
+            },
+            "comments_from_lms": {
+                "_children": "comment,location,timestamp",
+                "_count": "0"
+            },
+            "completion_status": "unknown",
+            "completion_threshold": "0.9",
+            "credit": "credit",
+            "entry": "ab-initio",
+            "exit": "",
+            "interactions": {
+                "_children": "id,type,objectives,timestamp,time,correct_responses,weighting,learner_response,student_response,result,latency,description",
+                "_count": "0"
+            },
+            "launch_data": "",
+            "learner_id": "288496df99b33f8f75a7ce4837d1b480",
+            "learner_name": "Simulated User",
+            "learner_preference": {
+                "_children": "audio_level,language,delivery_speed,audio_captioning",
+                "audio_level": "1",
+                "language": "",
+                "delivery_speed": "1",
+                "audio_captioning": "0"
+            },
+            "location": "",
+            "max_time_allowed": "",
+            "mode": "normal",
+            "objectives": {
+                "_children": "id,score,success_status,completion_status,description",
+                "_count": "0"
+            },
+            "progress_measure": "0",
+            "scaled_passing_score": "0.7",
+            "score": {
+                "_children": "scaled,raw,min,max",
+                "scaled": "0",
+                "raw": "0",
+                "min": "0",
+                "max": "0"
+            },
+            "session_time": "PT0H0M0S",
+            "success_status": "unknown",
+            "suspend_data": "",
+            "time_limit_action": "",
+            "total_time": "PT0H0M0S"
+        },
+        "adl": {
+            "data": {
+                "_children": "id,store",
+                "_count": "0"
+            },
+            "nav": {
+                "request": "_none_",
+                "request_valid": {
+                    "continue": "unknown",
+                    "previous": "unknown"
+                }
+            }
+        }
+    }
+}
